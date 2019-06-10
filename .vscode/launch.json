@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BlockChain",
+            "request": "launch",
+            "mainClass": "app.BlockChain",
+            "projectName": "BitcoinProject"
+        }
+    ]
+}
