@@ -12,7 +12,7 @@ public class Block {
 	public long timeStamp; //as number of milliseconds since 1/1/1970.
 	public int nonce;
 	
-	//Block Constructor.  
+	//Block Constructor.
 	public Block(String previousHash ) {
 		this.previousHash = previousHash;
 		this.timeStamp = new Date().getTime();
