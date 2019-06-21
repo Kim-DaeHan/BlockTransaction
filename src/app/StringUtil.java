@@ -6,6 +6,10 @@ import java.util.Base64;
 import com.google.gson.GsonBuilder;
 import java.util.List;
 
+/**
+ *  String 유틸 메서드 모음
+ */
+
 public class StringUtil {
 
 	// string 값에 sha256을 적용하여 해시값 리턴
