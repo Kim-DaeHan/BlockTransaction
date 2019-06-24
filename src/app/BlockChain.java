@@ -19,7 +19,7 @@ public class BlockChain {
 		// 보안 제공자로 Bouncey castle 설정:
 		Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
 
-		// 지갑 생성:
+		// 지갑 생성
 		Alice = new Wallet();
 		Bob = new Wallet();
 		Wallet coinbase = new Wallet();
